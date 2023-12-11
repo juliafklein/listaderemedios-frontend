@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="title">
+            <h2>Lista de Remédios</h2>
+        </div>
+        <div class="banner">
+            <img src="https://img.freepik.com/fotos-gratis/closeup-vista-da-mao-do-farmaceutico-tirando-a-caixa-de-remedios-da-prateleira-da-farmacia_342744-320.jpg?w=1380&t=st=1701136062~exp=1701136662~hmac=7b5e66b84f23b7a0fd24cead87a6f4d3e7b0f490a4fc5a338dd3447d0ee07862"
+                alt="y">
+        </div>
+    </header>
+
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Adicionar novo remédio:">
+        <input type="text" id="newQuantity" placeholder="Quantidade:">
+        <input type="text" id="newmgmL" placeholder="mg/mL:">
+        <input type="text" id="newPrice" placeholder="Valor:">
+        <span onclick="newItem()" class="addBtn">Inserir</span>
+    </section>
+
+
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+                <th>mg/mL</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
